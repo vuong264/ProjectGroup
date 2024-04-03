@@ -21,9 +21,9 @@ public class TV_SONY extends TV{
     @Override
     public void Output(){
         super.Output();
-        System.out.println("Surcharge: "+surcharge);
-        System.out.println("Total: "+sum_Total());
-        System.out.println("Discount: "+discount());
+        System.out.println("Surcharge: " + surcharge);
+        System.out.println("Total: " + sum_Total());
+        System.out.println("Discount: " + discount());
     }
     
     public double getSurcharge() {
