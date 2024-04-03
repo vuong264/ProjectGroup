@@ -48,11 +48,11 @@ public class TV {
 	    }
 	       
 	    public void Output(){
-	        System.out.println("ID: "+tvID);
-	        System.out.println("Manifacturer: "+manifacturer);
-	        System.out.println("Entry Date: "+df.format(entryDate));
-	        System.out.println("Price: "+price);
-	        System.out.println("Num: "+num);
+	        System.out.println("ID: " + tvID);
+	        System.out.println("Manifacturer: " + manifacturer);
+	        System.out.println("Entry Date: " + df.format(entryDate));
+	        System.out.println("Price: " + price);
+	        System.out.println("Num: " + num);
 	    }
 	    
 	    public String getTvID() {
